@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'arvoregular';
+    src: url('../fonts/arvo-regular-webfont.eot');
+}
+
+@font-face {
+    font-family: 'arvoregular';
+    src: url('../fonts/arvo-regular-webfont.woff2') format('woff2'),
+    url('../fonts/arvo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    font-size: 11px;
+    color: #2d2a2b;
+}
+
+img {
+    border: none;
+}
+
+html {
+    height: 100%;
+}
+
+header {
+    background-color: #af2024;
+    padding: 13px 13px;
+    margin: auto;
+}
+
+.top-menu {
+
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    width: 100%;
+
+}
+
+
+.current {
+    display: inline-block;
+    width: 12.5%;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    border: solid 1px yellow;
+
+}
+.current a {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+   
+}
+
+
+body {
+    height: auto !important;
+    position: relative;
+    background-color: black;
+    font-size: 13px;
+    color: white;
+    margin: auto;
+    padding-bottom: 454px;
+    }
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    }
+
+.mainsection {
+    background-image: url("../images/mainbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    margin: auto;
+    position: relative;
+    /*height: 851px;*/
+    /*padding-bottom: 200px;*/
+    /*bottom: 36px;*/
+
+}
+
+.logo {
+    margin-top: 19px;
+    display: inline-block;
+
+}
+
+.block {
+    margin-top: -15px;
+    margin-left: 136px;
+    background: #ffffff;
+    color: #98161b;
+    /*box-sizing: border-box;*/
+    /*float: left;*/
+    padding-bottom: 129px;
+    position: relative;
+    bottom: -36px;
+    /*height: 748px;*/
+    max-width: 710px;
+    width: 100%;
+
+}
+
+.innerblock {
+    background: #e7e7e7;
+    max-width: 567px;
+    width: 100%;
+    height: 346px;
+    margin: 63px 69px 29px 74px;
+    position: relative;
+}
+
+.text1 {
+    background: #98161b;
+    padding: 27px 0 28px 18px;
+    font-size: 20px;
+    color: white;
+    font-family: 'arvoregular', sans-serif;
+    font-weight: bold;
+}
+
+.sign {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -27px;
+    margin-left: -24px;
+}
+
+a:hover {
+    cursor: url("../images/sym88.ani"), url(../images/sym88.png), progress !important;
+}
+
+.text2 {
+    color: #98161b;
+    font-size: 13px;
+    margin-left: 74px;
+    padding-bottom: 20px;
+    font-family: 'arvoregular', sans-serif;
+}
+
+.colortext {
+    color: #7d7d7d;
+}
+
+.line {
+    width: 43px;
+    border-bottom: #98161b 2px dotted;
+    margin-left: 74px;
+}
+
+.text3 {
+    color: #98161b;
+    font-size: 12px;
+    margin-left: 74px;
+    max-width: 545px;
+    width: 100%;
+    padding-top: 17px;
+    font-family: 'arvoregular', sans-serif;
+}
+
+.fa {
+    font-size: 33px;
+    color: white;
+    line-height: 50px;
+}
+
+.facebook {
+    background-color: #850409;
+    width: 50px;
+    height: 50px;
+    float: right;
+    position: fixed;
+    top: 222px;
+    right: 0;
+    text-align: center;
+}
+
+.twitter {
+    background-color: #98161b;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: right;
+    position: fixed;
+    top: 272px;
+    right: 0;
+    text-align: center;
+}
+
+/*footer {
+    width: 100%;
+    background-color: #000000;
+    margin: auto;
+    height: 454px;
+    }*/
